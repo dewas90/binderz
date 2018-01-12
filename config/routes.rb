@@ -1,17 +1,7 @@
 Rails.application.routes.draw do
-  get 'profiles/index'
 
-  get 'profiles/new'
-
-  get 'profiles/create'
-
-  get 'profiles/show'
-
-  get 'profiles/edit'
-
-  get 'profiles/update'
-
-  get 'profiles/destroy'
+  resources :profiles
+  resources :documents
 
   devise_for :users
   root to: 'pages#home'
