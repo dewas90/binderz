@@ -1,4 +1,5 @@
 <%= simple_form_for @document do |f| %>
   <%= f.input :name %>
+  <%= f.input :text, as: :text, input_html: {rows: 9} %>
   <%= f.submit "Submit", class: "btn btn-primary" %>
 <% end %>
