@@ -1,5 +1,7 @@
 <%= simple_form_for @document do |f| %>
   <%= f.input :name %>
   <%= f.input :text, as: :text, input_html: {rows: 9} %>
+  <%= f.input :photo %>
+  <%= f.input :photo_cache, as: :hidden %>
   <%= f.submit "Submit", class: "btn btn-primary" %>
 <% end %>

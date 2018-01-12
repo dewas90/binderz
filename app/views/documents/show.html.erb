@@ -1,2 +1,4 @@
 <h4><%= @document.name %></h4>
 <p><%= @document.text %></p>
+
+<%= cl_image_tag @document.photo, { size: '500x500', format: :jpg } %>
