@@ -1,1 +1,3 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+This app aims to facilitate the document management between fiduciaries and their clients.
+
+It is still a work in progress today - not ready for showcase.
