@@ -31,3 +31,7 @@ end
 
 # Faker
 gem 'faker'
+
+# PDF upload
+gem 'cloudinary'
+gem 'carrierwave', '~> 0.11.2'
